@@ -1,8 +1,9 @@
-name: sample-html
+name: samtl-website
 static_sites:
 - environment_slug: html
   github:
-    branch: main
+    branch: samtl-static-site
     deploy_on_push: true
     repo: digitalocean/sample-html
-  name: sample-html
+  name: samtl-website
+  catchall_document: index.html

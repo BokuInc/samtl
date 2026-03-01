@@ -1,8 +1,9 @@
 spec:
-  name: sample-html
+  name: samtl-website
   static_sites:
   - environment_slug: html
     git:
-      branch: main
+      branch: samtl-static-site
       repo_clone_url: https://github.com/digitalocean/sample-html.git
-    name: sample-html
+    name: samtl-website
+    catchall_document: index.html
